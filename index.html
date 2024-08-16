@@ -4,8 +4,470 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/f207512997.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <h1>HOLA MUNDO</h1>
+    <main>
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="/assets/img/A.png"
+                alt="Logo"
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top"
+              />
+              lexandra Maurera
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav mb-2 mb-lg-0 w-100 d-flex justify-content-end"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="#educacion">Educacion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Portafolio</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="container-fluid Presentacion text-center fondoprincipal">
+        <div class="row d-flex justify-content-around align-items-center">
+          <article class="col-lg-4 col-md-5 col-sm-12 descripcion">
+            <div class="photo-containr">
+              <img class="foto" src="/assets/img/unnamed (1).jpg" alt="Foto" />
+            </div>
+          </article>
+          <article class="resumen col-lg-8 col-md-7 col-sm-12">
+            <div class="col">
+              <div class="card">
+                <div class="pt-4"><h1>Alexandra Maurera</h1></div>
+                <h4 class="subtitle">
+                  Enfermera - Formadora - Desarrolladora Web
+                </h4>
+                <div class="card-body">
+                  <p class="card-text">
+                    Profesional comprometida con una sólida formación en
+                    enfermería y actualmente en proceso de transición hacia el
+                    desarrollo web. Poseo una gran capacidad de aprendizaje,
+                    empatía y habilidad para trabajar bajo presión. Mi objetivo
+                    es aplicar mi experiencia en la resolución de problemas y
+                    atención al público para contribuir al éxito en el campo del
+                    desarrollo web.
+                  </p>
+                  <a href="#contacto"
+                    ><button class="btn boton">¡Hablemos!</button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="container-fluid competencies">
+        <div class="row d-flex justify-content-center align-items-center">
+          <article class="p-5 col-lg-5 col-md-6 col-sm-12">
+            <div class="container text-center w-100 p-5 bg-informacion">
+              <div class="jrow align-items-start">
+                <h3>Acerca de mi</h3>
+              </div>
+              <ul class="font-principal col">
+                <li>Fecha de Nacimiento: 10-02-1993</li>
+                <li>
+                  Github:
+                  <a href="https://github.com/Alexaaxm">
+                    https://github.com/Alexaaxm</a
+                  >
+                </li>
+                <li>
+                  Dirección:Av. Antonio Varas 678, Ñuñoa,- Región metropolitana.
+                </li>
+                <li>Teléfono: +56445672298</li>
+                <li>Email: alexandramaurera93@gmail.com</li>
+              </ul>
+            </div>
+          </article>
+          <article class="p-5 col-lg-7 col-md-6 col-sm-12">
+            <h2 class="pb-4">Competencias Profesionales</h2>
+            <div>
+              <p>Trabajo en equipo</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-pink" style="width: 90%">90%</div>
+              </div>
+            </div>
+            <div class="py-3">
+              <p>Manejo Excel</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="60"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-pink" style="width: 60%">60%</div>
+              </div>
+            </div>
+            <div class="py-3">
+              <p>Liderazgo</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-pink" style="width: 75%">75%</div>
+              </div>
+            </div>
+            <div class="py-3">
+              <p>Adaptabilididad</p>
+
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example with label"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <div class="progress-bar bg-pink" style="width: 100%">100%</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="py-6" id="educacion">
+        <div class="container text-start">
+          <div class="row align-items-start">
+            <div class="col">
+              <h3 class="p-4">Educación</h3>
+              <div
+                class="text-container d-flex align-items-center justify-content-between"
+              >
+                <p>
+                  2016- Universidad de Oriente Núcleo bolívar. Venezuela.
+                  Profesión: Licenciada en Enfermería
+                </p>
+                <img
+                  class="logo-university px-6"
+                  src="/assets/img/universidad.png"
+                  alt="Universidad"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6" id="experiencia">
+        <div class="container text-start">
+          <div class="row align-items-start">
+            <div class="col">
+              <h3 class="p-4">Experiencia</h3>
+              <div class="text-container">
+                <ul>
+                  <li class="py-4">
+                    Cajera en Lagar’s Bar, restaurant and lounge (Puerto Ordaz,
+                    Venezuela) Duración: 6 meses.
+                  </li>
+                  <li class="pb-4">
+                    Gerente de tienda CASIO en el Centro Comercial “Alta Vista
+                    II” cumpliendo funciones de administración de inventario,
+                    decoración y atención al cliente personal y vía online
+                    (Puerto Ordaz, Venezuela) Duración: 6 meses.
+                  </li>
+                  <li class="pb-4">
+                    Secretaria y asistente de médico especialista en cirugía
+                    laparoscópica y ginecológica y cirugía mínima invasiva Dr.
+                    Alexander Anuel. Duración 8 meses.
+                  </li>
+                  <li class="pb-4">
+                    Enfermera especializada en cuidados de personas de la
+                    tercera edad y pacientes con enfermedades graves en la casa
+                    de reposo las Araucarias. Duración 8 meses. (Santiago,
+                    Chile).
+                  </li>
+                  <li class="pb-4">
+                    Formadora de Call Center especializada en servicios de
+                    telefonía y servicios básicos
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <article class="projects-section">
+          <h3 class="m-0" id="proyectos">Mis Proyectos</h3>
+          <div
+            id="carouselExampleFade"
+            class="projects-carousel carousel slide carousel-fade"
+            data-bs-theme="light"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="carouselExampleFade"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="carouselExampleFade"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="carouselExampleFade"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="carouselExampleFade"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="carouselExampleFade"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-theme="dark">
+                <div class="card d-block w-100 rounded-0">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex align-items-center p-5">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyecto Cuppon</h5>
+                        <p class="card-text">
+                          Construcción de una página web para vender productos
+                          que tiene una versión para escritorio, para tablet y
+                          para teléfonos móviles.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="project-image-container">
+                        <img
+                          src="/assets/img/cuppon.png"
+                          class="img-fluid project-image"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-theme="dark">
+                <div class="card d-block w-100 rounded-0">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex align-items-center p-5">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyecto Currículum</h5>
+                        <p class="card-text">
+                          Currículum vitae utilizando HTML.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="project-image-container">
+                        <img
+                          src="/assets/img/curriculum.png"
+                          class="img-fluid project-image"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-theme="dark">
+                <div class="card d-block w-100 rounded-0">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex align-items-center p-5">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyecto Iguana</h5>
+                        <p class="card-text">
+                          Creación de un slanding page a partir de una maqueta,
+                          siguiendo las especificaciones definidas dentro de la
+                          misma.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="project-image-container">
+                        <img
+                          src="/assets/img/Iguana.png"
+                          class="img-fluid project-image"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-theme="dark">
+                <div class="card d-block w-100 rounded-0">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex align-items-center p-5">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyecto Olivia</h5>
+                        <p class="card-text">
+                          Conocimientos sobre Git, Github, HTML y CSS, para la
+                          construcción de un CV a partir de una plantilla que
+                          encontraremos en Github.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="project-image-container">
+                        <img
+                          src="/assets/img/olivia.png"
+                          class="img-fluid project-image"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-theme="dark">
+                <div class="card d-block w-100 rounded-0">
+                  <div class="row g-0">
+                    <div class="col-md-4 d-flex align-items-center p-5">
+                      <div class="card-body">
+                        <h5 class="card-title">Proyecto Tienda</h5>
+                        <p class="card-text">
+                          Un nuevo landing page, pensando en concepto o idea y
+                          usando CSS.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="project-image-container">
+                        <img
+                          src="/assets/img/tienda.png"
+                          class="img-fluid project-image"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </article>
+      </section>
+
+      <footer id="contacto">
+        <div class="d-flex justify-content-center p-1">
+          <img class="icon" src="/assets/img/A.png" alt="Logo" />
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="d-flex flex-column p-1 text-center">
+            <a href="tel:+34000000000">tel:+56445672298</a>
+            <a href="mailto:alexandramaurera93@gmail.com"
+              >Email: alexandramaurera93@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center p-1">
+          <a href="#" class="px-1"
+            ><i class="fa-brands fa-facebook fa-2x"></i
+          ></a>
+          <a href="#" class="px-1"><i class="fa-brands fa-tiktok fa-2x"></i></a>
+          <a href="#" class="px-1"
+            ><i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a href="#" class="px-1"
+            ><i class="fa-brands fa-github fa-2x"></i>
+          </a>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
